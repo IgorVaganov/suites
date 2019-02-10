@@ -10,7 +10,7 @@ use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
 
-class SiteController extends Controller
+class SuitesController extends Controller
 {
     /**
      * {@inheritdoc}
@@ -105,7 +105,6 @@ class SiteController extends Controller
      */
     public function actionContact()
     {
-        //echo 'hello';
         $model = new ContactForm();
         if ($model->load(Yii::$app->request->post()) && $model->contact(Yii::$app->params['adminEmail'])) {
             Yii::$app->session->setFlash('contactFormSubmitted');
