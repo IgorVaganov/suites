@@ -6,8 +6,8 @@
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center" data-aos="fade">
               
-              <h1 class="mb-2">Welcome To Suites</h1>
-              <h2 class="caption">Hotel &amp; Resort</h2>
+              <h1 class="mb-2">Добро пожаловать в наш люкс</h1>
+              <h2 class="caption">отель &amp; гостиница</h2>
             </div>
           </div>
         </div>
@@ -17,8 +17,8 @@
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center" data-aos="fade">
-              <h1 class="mb-2">Unique Experience</h1>
-              <h2 class="caption">Enjoy With Us</h2>
+              <h1 class="mb-2">Уникальный опыт</h1>
+              <h2 class="caption">Наслаждайтесь с нами</h2>
             </div>
           </div>
         </div>
@@ -28,8 +28,8 @@
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center" data-aos="fade">
-              <h1 class="mb-2">Relaxing Room</h1>
-              <h2 class="caption">Your Room, Your Stay</h2>
+              <h1 class="mb-2">Комната отдыха</h1>
+              <h2 class="caption">Ваша комната, Ваша жизнь</h2>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 mx-auto text-center mb-5 section-heading">
-            <h2 class="mb-5">Our Rooms</h2>
+            <h2 class="mb-5">Наши комнаты</h2>
           </div>
         </div>
         <div class="row">
@@ -49,8 +49,8 @@
             <div class="hotel-room text-center">
               <a href="#" class="d-block mb-0 thumbnail"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
               <div class="hotel-room-body">
-                <h3 class="heading mb-0"><a href="#">Standard Room</a></h3>
-                <strong class="price">$350.00 / per night</strong>
+                <h3 class="heading mb-0"><a href="#">Стандартная комната</a></h3>
+                <strong class="price">2000 / за ночь</strong>
               </div>
             </div>
           </div>
@@ -58,8 +58,8 @@
             <div class="hotel-room text-center">
               <a href="#" class="d-block mb-0 thumbnail"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
               <div class="hotel-room-body">
-                <h3 class="heading mb-0"><a href="#">Family Room</a></h3>
-                <strong class="price">$400.00 / per night</strong>
+                <h3 class="heading mb-0"><a href="#">Фамильная комната</a></h3>
+                <strong class="price">4 000 / за ночь</strong>
               </div>
             </div>
           </div>
@@ -67,8 +67,8 @@
             <div class="hotel-room text-center">
               <a href="#" class="d-block mb-0 thumbnail"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
               <div class="hotel-room-body">
-                <h3 class="heading mb-0"><a href="#">Single Room</a></h3>
-                <strong class="price">$255.00 / per night</strong>
+                <h3 class="heading mb-0"><a href="#">для не женатых</a></h3>
+                <strong class="price">1500 / за ночь</strong>
               </div>
             </div>
           </div>
@@ -77,8 +77,8 @@
             <div class="hotel-room text-center">
               <a href="#" class="d-block mb-0 thumbnail"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
               <div class="hotel-room-body">
-                <h3 class="heading mb-0"><a href="#">Deluxe Room</a></h3>
-                <strong class="price">$150.00 / per night</strong>
+                <h3 class="heading mb-0"><a href="#">Роскошная комната</a></h3>
+                <strong class="price">6 000 / за ночь</strong>
               </div>
             </div>
           </div>
@@ -86,8 +86,8 @@
             <div class="hotel-room text-center">
               <a href="#" class="d-block mb-0 thumbnail"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
               <div class="hotel-room-body">
-                <h3 class="heading mb-0"><a href="#">Luxury Room</a></h3>
-                <strong class="price">$200.00 / per night</strong>
+                <h3 class="heading mb-0"><a href="#">Комната люкс</a></h3>
+                <strong class="price">10000 / за ночь</strong>
               </div>
             </div>
           </div>
@@ -95,8 +95,8 @@
             <div class="hotel-room text-center">
               <a href="#" class="d-block mb-0 thumbnail"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
               <div class="hotel-room-body">
-                <h3 class="heading mb-0"><a href="#">Single Room</a></h3>
-                <strong class="price">$155.00 / per night</strong>
+                <h3 class="heading mb-0"><a href="#">комната для женатых</a></h3>
+                <strong class="price">2500 / за ночь</strong>
               </div>
             </div>
           </div>
@@ -126,10 +126,10 @@
             
 
             <div class="section-heading text-left">
-              <h2 class="mb-5">About Us</h2>
+              <h2 class="mb-5">О нас</h2>
             </div>
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, nisi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nobis magni eaque velit eum, id rem eveniet dolor possimus voluptas..</p>
-            <p><a href="https://vimeo.com/28959265" class="popup-vimeo text-uppercase">Watch Video <span class="icon-arrow-right small"></span></a></p>
+            <p class="mb-4">Мы рады приветствовать Вас, приезжайте к нам и ни о чем не волнуйтесь. Мы будем волноваться за Вас сами.</p>
+            <p><a href="https://vimeo.com/28959265" class="popup-vimeo text-uppercase">Наше видео<span class="icon-arrow-right small"></span></a></p>
           </div>
         </div>
       </div>
@@ -139,58 +139,58 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 mx-auto text-center mb-5 section-heading">
-            <h2 class="mb-5">Hotel Features</h2>
+            <h2 class="mb-5">Особенности отеля</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="text-center p-4 item">
               <span class="flaticon-pool display-3 mb-3 d-block text-primary"></span>
-              <h2 class="h5">Swimming Pool</h2>
+              <h2 class="h5">Плавательный бассейн</h2>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="text-center p-4 item">
               <span class="flaticon-desk display-3 mb-3 d-block text-primary"></span>
-              <h2 class="h5">Hotel Teller</h2>
+              <h2 class="h5">Менеджер-помошник</h2>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="text-center p-4 item">
               <span class="flaticon-exit display-3 mb-3 d-block text-primary"></span>
-              <h2 class="h5">Fire Exit</h2>
+              <h2 class="h5">Пожарные выходы</h2>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="text-center p-4 item">
               <span class="flaticon-parking display-3 mb-3 d-block text-primary"></span>
-              <h2 class="h5">Car Parking</h2>
+              <h2 class="h5">Автомобильная парковка</h2>
             </div>
           </div>
 
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="text-center p-4 item">
               <span class="flaticon-hair-dryer display-3 mb-3 d-block text-primary"></span>
-              <h2 class="h5">Hair Dryer</h2>
+              <h2 class="h5">Дамская комната</h2>
             </div>
           </div>
 
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="text-center p-4 item">
               <span class="flaticon-minibar display-3 mb-3 d-block text-primary"></span>
-              <h2 class="h5">Minibar</h2>
+              <h2 class="h5">Минибар</h2>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="text-center p-4 item">
               <span class="flaticon-drink display-3 mb-3 d-block text-primary"></span>
-              <h2 class="h5">Drinks</h2>
+              <h2 class="h5">Напитки</h2>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="text-center p-4 item">
               <span class="flaticon-cab display-3 mb-3 d-block text-primary"></span>
-              <h2 class="h5">Car Airport</h2>
+              <h2 class="h5">Быстрое такси</h2>
             </div>
           </div>
 
@@ -208,11 +208,11 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6">
-            <h2 class="text-white">Summer Promo 50% Off</h2>
-            <a href="#" class="text-white btn btn-outline-warning rounded-0 text-uppercase">Avail Now</a>
+            <h2 class="text-white">Получи промоскидку 50%</h2>
+            <a href="#" class="text-white btn btn-outline-warning rounded-0 text-uppercase">Получить сейчас</a>
           </div>
           <div class="col-md-6">
-            <span class="caption">The Promo will start in</span>
+            <span class="caption">До окончания скидки осталось</span>
             <div id="date-countdown"></div>    
           </div>
         </div>
@@ -224,7 +224,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 mx-auto text-center mb-5 section-heading">
-            <h2 class="mb-5">Our Gallery</h2>
+            <h2 class="mb-5">Наша галерея</h2>
           </div>
         </div>
         <div class="row no-gutters">
@@ -264,7 +264,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 mx-auto text-center mb-5 section-heading">
-            <h2>Upcoming Events</h2>
+            <h2>Предстоящие события</h2>
           </div>
         </div>
 
@@ -278,9 +278,9 @@
                   <img src="images/img_1.jpg" alt="" class="img-fluid">
                 </a>
               </div>
-              <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
-              <span class="mb-3 d-block post-date">Dec 20th, 2018 &bullet; By <a href="#">Admin</a></span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
+              <h2 class="heading mb-0"><a href="#">Будет открыта новая комната люкс</a></h2>
+              <span class="mb-3 d-block post-date">март 2019 <a href="#">Admin</a></span>
+              <p>Мы давно уже ждем открытия комнаты для самых солидных клиентов, почувствуйте себе аристократами вместе с нами</p>
             </div>
           
             <div class="media-with-text p-md-4">
@@ -289,9 +289,9 @@
                   <img src="images/img_2.jpg" alt="" class="img-fluid">
                 </a>
               </div>
-              <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
-              <span class="mb-3 d-block post-date">Dec 20th, 2018 &bullet; By <a href="#">Admin</a></span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
+              <h2 class="heading mb-0"><a href="#">Комната с видом на море уже заканчивает ремонт</a></h2>
+              <span class="mb-3 d-block post-date">март 2019 года<a href="#">Admin</a></span>
+              <p>Кто не мечтает о домике на берегу моря-Ваша мечта сбылась!</p>
             </div>
           
             <div class="media-with-text p-md-4">
@@ -300,9 +300,9 @@
                   <img src="images/img_3.jpg" alt="" class="img-fluid">
                 </a>
               </div>
-              <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
-              <span class="mb-3 d-block post-date">Dec 20th, 2018 &bullet; By <a href="#">Admin</a></span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
+              <h2 class="heading mb-0"><a href="#">Комната для работы</a></h2>
+              <span class="mb-3 d-block post-date">март 2019 <a href="#">Admin</a></span>
+              <p>Этот вариант отлично подойдет Вам если вы приехали сюда по работе. Никакого лшнего шума, только рабочая обстановка</p>
             </div>
 
             <div class="media-with-text p-md-4">
@@ -311,66 +311,13 @@
                   <img src="images/img_1.jpg" alt="" class="img-fluid">
                 </a>
               </div>
-              <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
-              <span class="mb-3 d-block post-date">Dec 20th, 2018 &bullet; By <a href="#">Admin</a></span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
+              <h2 class="heading mb-0"><a href="#">Комната для двоих</a></h2>
+              <span class="mb-3 d-block post-date">март 2019<a href="#">Admin</a></span>
+              <p>Хотите провести брачную ночь всей вашей мечты? если да, то эта комната именно для Вас.</p>
             </div>
           
-            <div class="media-with-text p-md-4">
-              <div class="img-border-sm mb-4">
-                <a href="#" class="popup-vimeo image-play">
-                  <img src="images/img_2.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-              <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
-              <span class="mb-3 d-block post-date">Dec 20th, 2018 &bullet; By <a href="#">Admin</a></span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
-            </div>
-          
-            <div class="media-with-text p-md-4">
-              <div class="img-border-sm mb-4">
-                <a href="#" class="popup-vimeo image-play">
-                  <img src="images/img_3.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-              <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
-              <span class="mb-3 d-block post-date">Dec 20th, 2018 &bullet; By <a href="#">Admin</a></span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
-            </div>
-            
-            <div class="media-with-text p-md-4">
-              <div class="img-border-sm mb-4">
-                <a href="#" class="popup-vimeo image-play">
-                  <img src="images/img_1.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-              <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
-              <span class="mb-3 d-block post-date">Dec 20th, 2018 &bullet; By <a href="#">Admin</a></span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
-            </div>
-          
-            <div class="media-with-text p-md-4">
-              <div class="img-border-sm mb-4">
-                <a href="#" class="popup-vimeo image-play">
-                  <img src="images/img_2.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-              <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
-              <span class="mb-3 d-block post-date">Dec 20th, 2018 &bullet; By <a href="#">Admin</a></span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
-            </div>
-          
-            <div class="media-with-text p-md-4">
-              <div class="img-border-sm mb-4">
-                <a href="#" class="popup-vimeo image-play">
-                  <img src="images/img_3.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-              <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
-              <span class="mb-3 d-block post-date">Dec 20th, 2018 &bullet; By <a href="#">Admin</a></span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
-            </div>
-          
+
+
 
 
         </div>
@@ -385,7 +332,7 @@
         
         <div class="row">
           <div class="col-md-6 mx-auto text-center mb-5 section-heading">
-            <h2>What People Say</h2>
+            <h2>Что говорят люди</h2>
           </div>
         </div>
 
@@ -397,8 +344,8 @@
                 <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded">
               </div>
               <div>
-                <h2 class="h5">Katie Johnson</h2>
-                <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!&rdquo;</blockquote>
+                <h2 class="h5">Катя Минингова</h2>
+                <blockquote>&ldquo;персонал был на высоте. Все покажут, расскажут. В общем помогут. &rdquo;</blockquote>
               </div>
             </div>
           </div>
@@ -408,8 +355,8 @@
                 <img src="images/person_2.jpg" alt="Image" class="img-fluid rounded">
               </div>
               <div>
-                <h2 class="h5">Jane Mars</h2>
-                <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!&rdquo;</blockquote>
+                <h2 class="h5">Яна Ямова</h2>
+                <blockquote>&ldquo;Я была замужем 3 раза. В этом отеле прошла лучшая брачная ночь моей мечты.&rdquo;</blockquote>
               </div>
             </div>
           </div>
@@ -419,8 +366,8 @@
                 <img src="images/person_3.jpg" alt="Image" class="img-fluid rounded">
               </div>
               <div>
-                <h2 class="h5">Shane Holmes</h2>
-                <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!&rdquo;</blockquote>
+                <h2 class="h5">Александр Хомов</h2>
+                <blockquote>&ldquo;Я проводил в этом отеле мастер класс. Здесь очень красиво.&rdquo;</blockquote>
               </div>
             </div>
           </div>
@@ -430,8 +377,8 @@
                 <img src="images/person_4.jpg" alt="Image" class="img-fluid rounded">
               </div>
               <div>
-                <h2 class="h5">Mark Johnson</h2>
-                <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!&rdquo;</blockquote>
+                <h2 class="h5">Саша Власова</h2>
+                <blockquote>&ldquo;Мы совершали долгий перелёт, но из за погоды рейс посадили в этом городе. Как хорошо что гостиница совсем недалеко от аэропорта&rdquo;</blockquote>
               </div>
             </div>
           </div>

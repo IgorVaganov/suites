@@ -52,6 +52,8 @@ $config = [
             'showScriptName' => false, //не показывать имя скрипта
             'rules' => [
                 'about'=>'site/about',
+                'rooms'=>'suites/rooms',
+                'events'=>'suites/events',
                 '' => 'suites/index'   //главная страница
             ],
         ],

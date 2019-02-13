@@ -8,9 +8,16 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use app\models\Page;
+
 
 class SuitesController extends AppController
 {
+    public function hello(){
+        echo 'hello';
+    }
+    //$this->hello();
+
     public function actionIndex()
     {
         //echo 'hello';
