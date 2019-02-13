@@ -60,27 +60,27 @@
                         <a href="index.html">Home</a>
                       </li>
                       <li class="has-children">
-                        <a href="rooms.html">Rooms</a>
+                        <a href="rooms.php">Rooms</a>
                         <ul class="dropdown arrow-top">
-                          <li><a href="rooms.html">Standard Room</a></li>
-                          <li><a href="rooms.html">Family Room</a></li>
-                          <li><a href="rooms.html">Single Room</a></li>
+                          <li><a href="rooms.php">Standard Room</a></li>
+                          <li><a href="rooms.php">Family Room</a></li>
+                          <li><a href="rooms.php">Single Room</a></li>
                           <li class="has-children">
-                            <a href="rooms.html">Rooms</a>
+                            <a href="rooms.php">Rooms</a>
                             <ul class="dropdown">
-                              <li><a href="rooms.html">America</a></li>
-                              <li><a href="rooms.html">Europe</a></li>
-                              <li><a href="rooms.html">Asia</a></li>
-                              <li><a href="rooms.html">Africa</a></li>
+                              <li><a href="rooms.php">America</a></li>
+                              <li><a href="rooms.php">Europe</a></li>
+                              <li><a href="rooms.php">Asia</a></li>
+                              <li><a href="rooms.php">Africa</a></li>
                               
                             </ul>
                           </li>
 
                         </ul>
                       </li>
-                      <li><a href="events.html">Events</a></li>
-                      <li><a href="about.html">About</a></li>
-                      <li class="active"><a href="contact.html">Contact</a></li>
+                      <li><a href="events.php">Events</a></li>
+                      <li><a href="about.php">About</a></li>
+                      <li class="active"><a href="contact.php">Contact</a></li>
                     </ul>
                   </div>
                 </nav>

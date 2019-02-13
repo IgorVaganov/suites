@@ -7,7 +7,7 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
-    //'layout'=> 'suites/index',
+    'layout'=> 'suites/index',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
@@ -51,6 +51,8 @@ $config = [
             'enablePrettyUrl' => true, //включает ЧПУ
             'showScriptName' => false, //не показывать имя скрипта
             'rules' => [
+                'about'=>'site/about',
+                '' => 'suites/index'   //главная страница
             ],
         ],
 

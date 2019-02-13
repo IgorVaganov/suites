@@ -1,53 +1,447 @@
-<?php
 
-/* @var $this yii\web\View */
+    <div class="slide-one-item home-slider owl-carousel">
+      
+      <div class="site-blocks-cover overlay" style="background-image: url(images/hero_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-7 text-center" data-aos="fade">
+              
+              <h1 class="mb-2">Welcome To Suites</h1>
+              <h2 class="caption">Hotel &amp; Resort</h2>
+            </div>
+          </div>
+        </div>
+      </div>  
 
-$this->title = 'My Yii Application';
-?>
-<div class="site-index">
+      <div class="site-blocks-cover overlay" style="background-image: url(images/hero_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-7 text-center" data-aos="fade">
+              <h1 class="mb-2">Unique Experience</h1>
+              <h2 class="caption">Enjoy With Us</h2>
+            </div>
+          </div>
+        </div>
+      </div> 
 
-    <div class="jumbotron">
-        <h1>Congratulations!</h1>
+      <div class="site-blocks-cover overlay" style="background-image: url(images/hero_3.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-7 text-center" data-aos="fade">
+              <h1 class="mb-2">Relaxing Room</h1>
+              <h2 class="caption">Your Room, Your Stay</h2>
+            </div>
+          </div>
+        </div>
+      </div> 
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
     </div>
 
-    <div class="body-content">
-
+    <div class="site-section bg-light">
+      <div class="container">
         <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
+          <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+            <h2 class="mb-5">Our Rooms</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div class="hotel-room text-center">
+              <a href="#" class="d-block mb-0 thumbnail"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+              <div class="hotel-room-body">
+                <h3 class="heading mb-0"><a href="#">Standard Room</a></h3>
+                <strong class="price">$350.00 / per night</strong>
+              </div>
             </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div class="hotel-room text-center">
+              <a href="#" class="d-block mb-0 thumbnail"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+              <div class="hotel-room-body">
+                <h3 class="heading mb-0"><a href="#">Family Room</a></h3>
+                <strong class="price">$400.00 / per night</strong>
+              </div>
             </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div class="hotel-room text-center">
+              <a href="#" class="d-block mb-0 thumbnail"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+              <div class="hotel-room-body">
+                <h3 class="heading mb-0"><a href="#">Single Room</a></h3>
+                <strong class="price">$255.00 / per night</strong>
+              </div>
             </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div class="hotel-room text-center">
+              <a href="#" class="d-block mb-0 thumbnail"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+              <div class="hotel-room-body">
+                <h3 class="heading mb-0"><a href="#">Deluxe Room</a></h3>
+                <strong class="price">$150.00 / per night</strong>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div class="hotel-room text-center">
+              <a href="#" class="d-block mb-0 thumbnail"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+              <div class="hotel-room-body">
+                <h3 class="heading mb-0"><a href="#">Luxury Room</a></h3>
+                <strong class="price">$200.00 / per night</strong>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div class="hotel-room text-center">
+              <a href="#" class="d-block mb-0 thumbnail"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+              <div class="hotel-room-body">
+                <h3 class="heading mb-0"><a href="#">Single Room</a></h3>
+                <strong class="price">$155.00 / per night</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-5 mb-md-0">
+            
+              <div class="img-border">
+                <a href="https://vimeo.com/28959265" class="popup-vimeo image-play">
+                  <span class="icon-wrap">
+                    <span class="icon icon-play"></span>
+                  </span>
+                  <img src="images/img_2.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+
+              <img src="images/img_1.jpg" alt="Image" class="img-fluid image-absolute">
+            
+          </div>
+          <div class="col-md-5 ml-auto">
+            
+
+            <div class="section-heading text-left">
+              <h2 class="mb-5">About Us</h2>
+            </div>
+            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, nisi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nobis magni eaque velit eum, id rem eveniet dolor possimus voluptas..</p>
+            <p><a href="https://vimeo.com/28959265" class="popup-vimeo text-uppercase">Watch Video <span class="icon-arrow-right small"></span></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+            <h2 class="mb-5">Hotel Features</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="text-center p-4 item">
+              <span class="flaticon-pool display-3 mb-3 d-block text-primary"></span>
+              <h2 class="h5">Swimming Pool</h2>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="text-center p-4 item">
+              <span class="flaticon-desk display-3 mb-3 d-block text-primary"></span>
+              <h2 class="h5">Hotel Teller</h2>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="text-center p-4 item">
+              <span class="flaticon-exit display-3 mb-3 d-block text-primary"></span>
+              <h2 class="h5">Fire Exit</h2>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="text-center p-4 item">
+              <span class="flaticon-parking display-3 mb-3 d-block text-primary"></span>
+              <h2 class="h5">Car Parking</h2>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="text-center p-4 item">
+              <span class="flaticon-hair-dryer display-3 mb-3 d-block text-primary"></span>
+              <h2 class="h5">Hair Dryer</h2>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="text-center p-4 item">
+              <span class="flaticon-minibar display-3 mb-3 d-block text-primary"></span>
+              <h2 class="h5">Minibar</h2>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="text-center p-4 item">
+              <span class="flaticon-drink display-3 mb-3 d-block text-primary"></span>
+              <h2 class="h5">Drinks</h2>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="text-center p-4 item">
+              <span class="flaticon-cab display-3 mb-3 d-block text-primary"></span>
+              <h2 class="h5">Car Airport</h2>
+            </div>
+          </div>
+
+          
+
+          
+
+          
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="py-5 upcoming-events" style="background-image: url('images/hero_1.jpg'); background-attachment: fixed;">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h2 class="text-white">Summer Promo 50% Off</h2>
+            <a href="#" class="text-white btn btn-outline-warning rounded-0 text-uppercase">Avail Now</a>
+          </div>
+          <div class="col-md-6">
+            <span class="caption">The Promo will start in</span>
+            <div id="date-countdown"></div>    
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+            <h2 class="mb-5">Our Gallery</h2>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-md-6 col-lg-3">
+            <a href="images/img_1.jpg" class="image-popup img-opacity"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <a href="images/img_2.jpg" class="image-popup img-opacity"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <a href="images/img_3.jpg" class="image-popup img-opacity"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <a href="images/img_4.jpg" class="image-popup img-opacity"><img src="images/img_4.jpg" alt="Image" class="img-fluid"></a>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <a href="images/img_4.jpg" class="image-popup img-opacity"><img src="images/img_4.jpg" alt="Image" class="img-fluid"></a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <a href="images/img_5.jpg" class="image-popup img-opacity"><img src="images/img_5.jpg" alt="Image" class="img-fluid"></a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <a href="images/img_6.jpg" class="image-popup img-opacity"><img src="images/img_6.jpg" alt="Image" class="img-fluid"></a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <a href="images/img_7.jpg" class="image-popup img-opacity"><img src="images/img_7.jpg" alt="Image" class="img-fluid"></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+
+
+    <div class="site-section block-15">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+            <h2>Upcoming Events</h2>
+          </div>
         </div>
 
+
+        <div class="nonloop-block-15 owl-carousel">
+          
+
+            <div class="media-with-text p-md-5">
+              <div class="img-border-sm mb-4">
+                <a href="#" class="popup-vimeo image-play">
+                  <img src="images/img_1.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+              <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
+              <span class="mb-3 d-block post-date">Dec 20th, 2018 &bullet; By <a href="#">Admin</a></span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
+            </div>
+          
+            <div class="media-with-text p-md-4">
+              <div class="img-border-sm mb-4">
+                <a href="#" class="popup-vimeo image-play">
+                  <img src="images/img_2.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+              <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
+              <span class="mb-3 d-block post-date">Dec 20th, 2018 &bullet; By <a href="#">Admin</a></span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
+            </div>
+          
+            <div class="media-with-text p-md-4">
+              <div class="img-border-sm mb-4">
+                <a href="#" class="popup-vimeo image-play">
+                  <img src="images/img_3.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+              <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
+              <span class="mb-3 d-block post-date">Dec 20th, 2018 &bullet; By <a href="#">Admin</a></span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
+            </div>
+
+            <div class="media-with-text p-md-4">
+              <div class="img-border-sm mb-4">
+                <a href="#" class="popup-vimeo image-play">
+                  <img src="images/img_1.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+              <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
+              <span class="mb-3 d-block post-date">Dec 20th, 2018 &bullet; By <a href="#">Admin</a></span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
+            </div>
+          
+            <div class="media-with-text p-md-4">
+              <div class="img-border-sm mb-4">
+                <a href="#" class="popup-vimeo image-play">
+                  <img src="images/img_2.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+              <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
+              <span class="mb-3 d-block post-date">Dec 20th, 2018 &bullet; By <a href="#">Admin</a></span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
+            </div>
+          
+            <div class="media-with-text p-md-4">
+              <div class="img-border-sm mb-4">
+                <a href="#" class="popup-vimeo image-play">
+                  <img src="images/img_3.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+              <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
+              <span class="mb-3 d-block post-date">Dec 20th, 2018 &bullet; By <a href="#">Admin</a></span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
+            </div>
+            
+            <div class="media-with-text p-md-4">
+              <div class="img-border-sm mb-4">
+                <a href="#" class="popup-vimeo image-play">
+                  <img src="images/img_1.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+              <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
+              <span class="mb-3 d-block post-date">Dec 20th, 2018 &bullet; By <a href="#">Admin</a></span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
+            </div>
+          
+            <div class="media-with-text p-md-4">
+              <div class="img-border-sm mb-4">
+                <a href="#" class="popup-vimeo image-play">
+                  <img src="images/img_2.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+              <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
+              <span class="mb-3 d-block post-date">Dec 20th, 2018 &bullet; By <a href="#">Admin</a></span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
+            </div>
+          
+            <div class="media-with-text p-md-4">
+              <div class="img-border-sm mb-4">
+                <a href="#" class="popup-vimeo image-play">
+                  <img src="images/img_3.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+              <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
+              <span class="mb-3 d-block post-date">Dec 20th, 2018 &bullet; By <a href="#">Admin</a></span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores culpa qui aliquam placeat nobis veritatis tempora natus rerum obcaecati.</p>
+            </div>
+          
+
+
+        </div>
+
+      </div>
     </div>
-</div>
+
+
+    <div class="site-section block-14 bg-light">
+
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+            <h2>What People Say</h2>
+          </div>
+        </div>
+
+        <div class="nonloop-block-14 owl-carousel">
+          
+          <div class="p-4">
+            <div class="d-flex block-testimony">
+              <div class="person mr-3">
+                <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded">
+              </div>
+              <div>
+                <h2 class="h5">Katie Johnson</h2>
+                <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!&rdquo;</blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="d-flex block-testimony">
+              <div class="person mr-3">
+                <img src="images/person_2.jpg" alt="Image" class="img-fluid rounded">
+              </div>
+              <div>
+                <h2 class="h5">Jane Mars</h2>
+                <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!&rdquo;</blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="d-flex block-testimony">
+              <div class="person mr-3">
+                <img src="images/person_3.jpg" alt="Image" class="img-fluid rounded">
+              </div>
+              <div>
+                <h2 class="h5">Shane Holmes</h2>
+                <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!&rdquo;</blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="d-flex block-testimony">
+              <div class="person mr-3">
+                <img src="images/person_4.jpg" alt="Image" class="img-fluid rounded">
+              </div>
+              <div>
+                <h2 class="h5">Mark Johnson</h2>
+                <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!&rdquo;</blockquote>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      
+    </div>
+    
+
+
+    
