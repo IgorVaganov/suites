@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <base href="/views/layouts/suites/">
-    <title>Suite &mdash; Colorlib Website Template</title>
+    <title>Отели люкс</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -147,7 +147,7 @@
           <div class="col-md-12">
             <p>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy; <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> Все права защищены | Этот шаблон сделан <i class="icon-heart text-primary" aria-hidden="true"></i> с помощью  <a href="https://easymysite.ru" target="_blank" >easymysite.ru</a>
+            Copyright &copy; <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> Все права защищены | Этот сайт сделан <i class="icon-heart text-primary" aria-hidden="true"></i> с помощью  <a href="https://easymysite.ru" target="_blank" >easymysite.ru</a>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
           </div>

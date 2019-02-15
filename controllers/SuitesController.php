@@ -9,6 +9,7 @@ use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
 use app\models\Page;
+use app\models\Myread;
 
 
 class SuitesController extends AppController
@@ -21,12 +22,14 @@ class SuitesController extends AppController
     public function actionIndex()
     {
         //echo 'hello';
+      Page::createmytable();//создание необходимых таблиц если их нет
         return $this->render('index');
     }
 
     public function actionEvents()
     {
-        return $this->render('events');
+        $events=Myread::find()->all();
+        return $this->render('events', compact('events'));
     }
 
     public function actionContact()
@@ -41,5 +44,9 @@ class SuitesController extends AppController
     public function actionRooms()
     {
         return $this->render('rooms');
+    }
+    public function actionAdmin()
+    {
+        return $this->render('admin');
     }
 }

@@ -51,9 +51,11 @@ $config = [
             'enablePrettyUrl' => true, //включает ЧПУ
             'showScriptName' => false, //не показывать имя скрипта
             'rules' => [
-                'about'=>'site/about',
+                'about'=>'suites/about',
                 'rooms'=>'suites/rooms',
                 'events'=>'suites/events',
+                'contact'=>'suites/contact',
+                'admin'=>'suites/admin',
                 '' => 'suites/index'   //главная страница
             ],
         ],
