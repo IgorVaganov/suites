@@ -1,3 +1,7 @@
+<?use
+    app\models\Category;
+require_once 'print_layout.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -61,23 +65,7 @@
                         <a href="/">Домашняя</a>
                       </li>
                       <li class="has-children">
-                        <a href="/rooms">Комнаты</a>
-                        <ul class="dropdown arrow-top">
-                          <li><a href="/rooms">Стандартная комната</a></li>
-                          <li><a href="/rooms">Фамильная окмната</a></li>
-                          <li><a href="/rooms">Комната для не женатых</a></li>
-                          <li class="has-children">
-                            <a href="/rooms">Комната</a>
-                            <ul class="dropdown">
-                              <li><a href="/rooms">Американская</a></li>
-                              <li><a href="/rooms">Европейская</a></li>
-                              <li><a href="/rooms">Азиатская</a></li>
-                              <li><a href="/rooms">Африканская</a></li>
-                              
-                            </ul>
-                          </li>
-
-                        </ul>
+                        <?print_layout::print_category();?>
                       </li>
                       <li><a href="/events">Наши события</a></li>
                       <li><a href="/about">О нас</a></li>

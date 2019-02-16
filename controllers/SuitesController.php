@@ -10,6 +10,7 @@ use app\models\LoginForm;
 use app\models\ContactForm;
 use app\models\Page;
 use app\models\Myread;
+use app\models\Category;
 
 
 class SuitesController extends AppController
@@ -22,7 +23,8 @@ class SuitesController extends AppController
     public function actionIndex()
     {
         //echo 'hello';
-      Page::createmytable();//создание необходимых таблиц если их нет
+        Page::createmytable();//создание необходимых таблиц если их нет
+        //print_r($_GET);
         return $this->render('index');
     }
 

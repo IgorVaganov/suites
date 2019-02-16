@@ -56,6 +56,8 @@ $config = [
                 'events'=>'suites/events',
                 'contact'=>'suites/contact',
                 'admin'=>'suites/admin',
+                'hiadmin'=>'admin/index',
+
                 '' => 'suites/index'   //главная страница
             ],
         ],

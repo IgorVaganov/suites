@@ -32,6 +32,18 @@ class Page extends ActiveRecord
            );
            $command = $query->createCommand()->createTable( 'myread', $table_myread, $options = null )->execute();
        }
+       if (\Yii::$app->db->getTableSchema('{{%category}}', true) !== null) {//если таблица существует то ничего не делаем
+           // какой-то код для работы с данной таблицей...
+       }else{
+           $table_myread=array(
+               'id'=>'INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY',
+               'img'=>'TEXT(10000)',
+               'title'=>'TEXT(10000)',
+               'text'=>'TEXT(100000)',
+               'category_id'=>'INT(6)'
+           );
+           $command = $query->createCommand()->createTable( 'category', $table_myread, $options = null )->execute();
+       }
 
    }
 
