@@ -35,10 +35,10 @@
     <div class="container padding_cont">
         <div class="row">
              <div class = "col-md-2 menu_admin">
-                 меню
+                 <div class="cat">Категории</div>
              </div>
             <div class = "col-md-10">
-                контент
+                <?= $content ?>
             </div>
         </div>
     </div>
