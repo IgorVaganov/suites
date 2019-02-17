@@ -1,6 +1,7 @@
 <?use
     app\models\Category;
 require_once 'print_layout.php';
+$category=new print_layout();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -65,7 +66,8 @@ require_once 'print_layout.php';
                         <a href="/">Домашняя</a>
                       </li>
                       <li class="has-children">
-                        <?print_layout::print_category();?>
+                        <a href="/rooms">Комнаты</a>
+                        <?$category->print_cat();?>
                       </li>
                       <li><a href="/events">Наши события</a></li>
                       <li><a href="/about">О нас</a></li>

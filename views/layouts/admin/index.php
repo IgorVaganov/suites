@@ -37,7 +37,7 @@
              <div class = "col-md-2 menu_admin">
                  <div class="cat">Категории</div>
              </div>
-            <div class = "col-md-10">
+            <div class = "col-md-10 content_admin">
                 <?= $content ?>
             </div>
         </div>
@@ -55,6 +55,7 @@
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/bootstrap-datepicker.min.js"></script>
 <script src="js/aos.js"></script>
+<script src="js/tippy.js"></script>
 
 
 <script src="js/mediaelement-and-player.min.js"></script>
