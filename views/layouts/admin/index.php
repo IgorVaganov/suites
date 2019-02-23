@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,7 +55,9 @@
 <script src="js/bootstrap-datepicker.min.js"></script>
 <script src="js/aos.js"></script>
 <script src="js/tippy.js"></script>
-
+<?
+require_once 'js/myjs.php';
+?>
 
 <script src="js/mediaelement-and-player.min.js"></script>
 

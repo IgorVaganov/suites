@@ -11,5 +11,8 @@ use yii\db\ActiveRecord;
 
 class Category extends ActiveRecord
 {
-
+      public function hello(){
+          $console='category';
+          return $console;
+      }
 }
