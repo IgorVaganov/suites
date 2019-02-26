@@ -63,14 +63,7 @@ if ($_POST['login']){
 }
 //data_base::myonewords('hello world')
 
-if ($_POST['logo']){//Улица Томина trim
-    $text=trim($_POST['text']).'&nbsp;&nbsp;';//что бы не пропадал фокус
-    $table=data_base::myonewords($_POST['table']); //защита от SQL иньекций
-    $column=data_base::myonewords($_POST['column']);//защита от SQL иньекций
-    $param=data_base::myonewords($_POST['param']);//защита от SQL иньекций
-    $all = data_base::run("UPDATE ".$table." SET ".$column."=? WHERE ".$param."=?", [ $_POST['text'], $_POST['logo']]);
-    echo 'запись обновлена';
-}
+
 
 
 if ($_POST['folders']){//Улица Томина trim
@@ -324,9 +317,28 @@ if ($_POST['first_name']){
     }
 
 }
+class myajax extends data_base {
+    private function update(){
+            $text=trim($_POST['text']).'&nbsp;&nbsp;';//что бы не пропадал фокус
+            $table=self::myonewords($_POST['table']); //защита от SQL иньекций
+            $column=self::myonewords($_POST['column']);//защита от SQL иньекций
+            $id=self::myonewords($_POST['id']);//защита от SQL иньекций
+            $all = self::run("UPDATE ".$table." SET ".$column."=? WHERE id=?", [ $_POST['text'], $id]);
+            echo 'запись обновлена';
+            //echo 'hello';
+    }
 
-$ttt=data_base::run("SELECT * FROM category")->fetchAll();
-print_r($ttt);
+    public function run_ajax(){
+        if (isset($_POST['table'])){//Улица Томина trim
+                self::update();
+        }
+    }
+}
+$run=new myajax();
+$run->run_ajax();
+
+//$ttt=data_base::run("SELECT * FROM category")->fetchAll();
+//print_r($ttt);
 /*    img/slide-1.jpg
 */
 //echo 'hello';

@@ -35,7 +35,7 @@ class AdminCategory
                                     <div class="col-md-4">
                                        <div class="icon_act delet_cat material-icons" data-tippy="Удалить категории и все подкатегории">delete_sweep</div>
                                        <div class="icon_act creat_cat material-icons" data-tippy="Добавить новую категорию">add_circle_outline</div>
-                                       <div class="icon_act read_cat material-icons" data-tippy="Изменить название категории">create</div>
+                                       <div class="icon_act read_cat material-icons" data-tippy="Изменить название категории" data-id="'.$cat['id'].'" data-col="title" data-table="category">create</div>
                                     </div>
                                 </div>
                             </div>
